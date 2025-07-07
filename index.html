@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Simon Game</title>
+</head>
+
+<body>
+    <h1>Simon Game</h1>
+    <h2 id="level-title">Welcome to Simon Game</h2>
+
+    <button id="start-btn">Start Game</button>
+
+    <div id="game-modal" class="modal">
+        <div class="modal-content">
+            <h3>Welcome to Simon Game!</h3>
+            <p>🧠 Repeat the sequence of colors shown by the game.</p>
+            <p>🎯 Each level adds a new color. Click them in the correct order!</p>
+            <button id="close-modal">Got it, Let's Play!</button>
+        </div>
+    </div>
+   
+    <div class="btn-container">
+        <div class="line-one">
+            <div class="btn red" type="button" id="red"></div>
+            <div class="btn yellow" type="button" id="yellow"></div>
+        </div>
+        <div class="line-two">
+            <div class="btn green" type="button" id="green"></div>
+            <div class="btn purple" type="button" id="purple"></div>
+        </div>
+    </div>
+    <button id="theme-toggle">🌙</button>
+    <script src="app.js"></script>
+</body>
