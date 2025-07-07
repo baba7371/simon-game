@@ -2,15 +2,8 @@
 
 A modern, interactive memory game built with HTML, CSS, and JavaScript. Repeat the color sequence as it grows longer with each level — how far can you go?
 
-![Simon Game Preview](preview.png) <!-- Optional: replace with a real screenshot -->
+![Simon Game Preview](https://github.com/baba7371/simon-game/blob/main/GAME%20PREVIEW/Screenshot%202025-07-07%20202354.png?raw=true)) 
 
----
-
-## 🔗 Live Demo
-
-[Click to Play the Game](#) <!-- Replace # with your GitHub Pages or live demo link -->
-
----
 
 ## 🧠 How to Play
 
@@ -52,7 +45,7 @@ A modern, interactive memory game built with HTML, CSS, and JavaScript. Repeat t
 
 ```
 
-📁 /your-project
+📁 /simon-game
 ├── index.html        # Game layout and structure
 ├── style.css         # Styling (light/dark mode, responsiveness)
 ├── app.js            # Game logic and interactivity
@@ -61,14 +54,13 @@ A modern, interactive memory game built with HTML, CSS, and JavaScript. Repeat t
 
 ````
 
----
 
 ## 🚀 Getting Started
 
 1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/simon-game.git
-````
+   ``` bash
+   git clone https://github.com/baba7371/simon-game.git
+   ````
 
 2. **Open in browser**:
    Just open `index.html` in your browser — no build step needed!
@@ -87,13 +79,10 @@ A modern, interactive memory game built with HTML, CSS, and JavaScript. Repeat t
 
 ## 📸 Screenshots
 
-<!-- Add actual game screenshots -->
+![Game Start](https://github.com/baba7371/simon-game/blob/main/GAME%20PREVIEW/Screenshot%202025-07-07%20202354.png?raw=true))
+![Dark Mode](https://github.com/baba7371/simon-game/blob/main/GAME%20PREVIEW/Screenshot%202025-07-07%20202449.png?raw=true)
+![Game Over](https://github.com/baba7371/simon-game/blob/main/GAME%20PREVIEW/Screenshot%202025-07-07%20202421.png?raw=true)
 
-![Game Start](screenshots/start.png)
-![Dark Mode](screenshots/dark-mode.png)
-![Game Over](screenshots/game-over.png)
-
----
 
 ## 🤝 Credits
 
@@ -109,15 +98,3 @@ MIT License — feel free to use, modify, and share!
 ---
 
 > Built with ❤️ by [Abhishek](https://github.com/baba7371)
-
-```
-
----
-
-Let me know if you want me to:
-- Add GitHub Pages live link
-- Generate screenshots for the preview section
-- Convert it to a PDF or include badges (like "Made with JS", "Live Demo", etc.)
-
-Just ask and I’ll help polish it further!
-```
